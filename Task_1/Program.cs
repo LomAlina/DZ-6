@@ -8,7 +8,7 @@ int[] array = new int[number];
 
 for (int i = 0; i < number; i++)
 {
-    Console.Write($"Введи {i+1} число: ");
+    Console.Write($"Введите {i+1} число: ");
     array[i] = Convert.ToInt32(Console.ReadLine());
 }
 
